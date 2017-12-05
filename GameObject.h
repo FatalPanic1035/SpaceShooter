@@ -50,8 +50,8 @@ public:
 	void SetX(float x) { GameObject::x = x; }
 	void SetY(float y) { GameObject::y = y; }
 
-	int GetBoundX() { return x; }
-	int GetBoundY() { return y; }
+	int GetBoundX() { return boundX; }
+	int GetBoundY() { return boundY; }
 
 	int GetID() { return ID; }
 	void SetID(int ID) { GameObject::ID = ID; }
